@@ -8,4 +8,5 @@ tasks:
   - init: npm install && bin/setup
     command: bin/rails server
 
-image: quadeare/gitpod-kubectl:latest
+image:
+  file: .gitpod.Dockerfile
